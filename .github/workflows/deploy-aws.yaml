@@ -2,7 +2,7 @@ name: Deploy react to aws
 on: 
   push:
     branches:
-      - "Docker-compose-CI/CD-AWS-Beanstalk"
+      - "master"
 
 jobs:
   deploy:
